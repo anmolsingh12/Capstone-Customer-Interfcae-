@@ -1,0 +1,449 @@
+<!-- 
+@Author : Anmol Singh
+@Team Members : Lakshya Dhupar, Utkarsh Gupta, Vikas Saini,Vivek Singh
+@Name : Logistics and Co.(Capstone Project 1)
+@Technologies Used : HTML, CSS, JAVA, JavaScript, MongoDb.
+ -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Customer Interface</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.min.css" rel="stylesheet">
+	<link href="css/form-mini.css" rel="stylesheet" >
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav style="background-color:black;" class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Logistics&Co.</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#track-consignment">Track Consignment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#send-consignment">Send Consignment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li><br>
+            <li>
+            	<a class="btn btn-info" href="login-signup.html" style="width:auto;">Login/Sign-up</a>
+          	</li>
+          </ul>
+        </div>
+      </div>
+</nav>
+    <!-- Masthead -->
+    <header class="masthead text-white text-center" id="page-top">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h1 class="mb-5">Logistics & Co.</h1>
+            <h2>Ship More • Stress Less</h2>
+            <h6>We make transporting big stuff cheap and easy by leading customers to directly connect with us.</h6>
+          </div>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <form>
+              <div class="form-row">
+                <div class="col-12 col-md-9 mb-2 mb-md-0">
+                  <input type="email" class="form-control form-control-lg" placeholder="Enter your Tracking Id..."><br>
+                </div>
+                <div class="col-12 col-md-3">
+                  <button type="submit" class="btn btn-block btn-lg btn-primary">Track</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Icons Grid -->
+    <section class="features-icons bg-light text-center" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-screen-desktop m-auto text-primary"></i>
+              </div>
+              <h3>24/7 Online Booking</h3>
+              <p class="lead mb-0">It's a marketplace where shippers can instantly book their consignment online and book shipments in seconds. Shippers can have full confidence that this is their one-stop-shop.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-layers m-auto text-primary"></i>
+              </div>
+              <h3>We Care</h3>
+              <p class="lead mb-0">It's a marketplace with the best service in the industry - our expert support responds immediately and helps with problems and complex shipments as if it was our own goods.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-check m-auto text-primary"></i>
+              </div>
+              <h3>Easy Tracking</h3>
+              <p class="lead mb-0">It's a forward-looking business. We feature cheaper rates with tracking options to provide you updates daily.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image Showcases -->
+    <section class="showcase" id="about">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Fully Flexible Plans</h2>
+            <p class="lead mb-0">We provide our customers with their own customized plans</p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>Better Route Guidance</h2>
+            <p class="lead mb-0">Route guidance is the next possible outcome of our next Meeting.</p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Fastest Delivery</h2>
+            <p class="lead mb-0">Efficiency of routes gives efficiency in time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="features-icons bg-light text-center" id="send-consignment">
+    	<h1>Send Consignment</h1>
+    	<div class="main-content">
+
+        <!-- You only need this form and the form-mini.css -->
+
+        <div class="form-mini-container">
+
+
+            <br><p>Fill Up The Form and Calculate Estimated Cost for shipment of Consignment. <p>
+
+            <form class="form-mini" action="CostCal.jsp" method="post">
+
+                <div class="form-row">
+                    <input type="text" name="src" id="source" placeholder="Source">
+                </div>
+
+                <div class="form-row">
+                    <input type="text" name="dest" id="destination" placeholder="Destination">
+                </div>
+                
+                <div class="form-row">
+                    <label>Calculate Estimated Distance and Time for Consignment to Reach Destination.</label>
+                </div>
+                
+                <input type ="button" class="btn btn-info" value="Calculate" onclick="initMap()"/>
+                
+                <br><br>
+                <div class="form-row">
+                    <input type="text" name="cal-dist" id="dist" placeholder="Calculated Distance" readonly>
+                </div>
+                
+                <div class="form-row">
+                    <input type="text" name="cal-time" id="time" placeholder="Calculated Duration" readonly>
+                </div>
+
+
+<br><hr>
+                <div class="form-row">
+                    <label>
+                        <select name="plan-type">
+                            <option >Plan Type</option>
+                            <option value="500">Beginer(500rs/km)</option>
+                            <option value="750">Intermediate(750rs/mile)</option>
+                            <option value="1000">Advanced(1000rs/mile)</option>
+                        </select>
+                    </label>
+                </div>
+                
+                <div class="form-row">
+                    <input type="text" name="weight" placeholder="--Weight of Consignment (in Kgs)--">
+                </div>
+				
+				<br><hr>
+				
+				<h4>Consignment Items Precaution Checklist</h4>
+                <div class="form-row">
+                    <label class="form-checkbox">
+                        <input type="checkbox" name="Pre-check" value="glass-items" >
+                        <span>Fragile Items</span>
+                    </label>
+                    
+                    <label class="form-checkbox">
+                        <input type="checkbox" name="Pre-check" value="flamable-items">
+                        <span>Flamable Items</span>
+                    </label>
+                    
+                    <label class="form-checkbox">
+                        <input type="checkbox" name="Pre-check" value="liquid-items">
+                        <span>Liquid Items</span>
+                    </label>
+                </div>
+                
+                <div class="form-row form-last-row">
+                    <button type="submit" >Calculate Estimated Consignment Cost</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    	
+	</section>
+    
+    <div id="map"></div>
+    
+    <script>
+      function initMap() {
+        var bounds = new google.maps.LatLngBounds;
+        var markersArray = [];
+
+        
+	var origin = document.getElementById("source").value;
+	var destination = document.getElementById("destination").value;
+	 	console.log(origin);
+	 	console.log(destination);
+        var destinationIcon = 'https://chart.googleapis.com/chart?' +
+            'chst=d_map_pin_letter&chld=D|FF0000|000000';
+        var originIcon = 'https://chart.googleapis.com/chart?' +
+            'chst=d_map_pin_letter&chld=S|FFFF00|000000';
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 55.53, lng: 9.4},
+          zoom: 10
+        });
+        var geocoder = new google.maps.Geocoder;
+
+        var service = new google.maps.DistanceMatrixService;
+        service.getDistanceMatrix({
+          origins: [origin],
+          destinations: [destination],
+        	
+          travelMode: 'TRANSIT',
+          unitSystem: google.maps.UnitSystem.METRIC,
+          avoidHighways: false,
+          avoidTolls: false
+        }, function(response, status) {
+          if (status !== 'OK') {
+            alert('Error was: ' + status);
+          } else {
+            var originList = response.originAddresses;
+            var destinationList = response.destinationAddresses;
+
+            var outputDiv = document.getElementById('dist');
+            outputDiv.innerHTML = '';
+            deleteMarkers(markersArray);
+
+            var showGeocodedAddressOnMap = function(asDestination) {
+              var icon = asDestination ? destinationIcon : originIcon;
+              return function(results, status) {
+                if (status === 'OK') {
+                  map.fitBounds(bounds.extend(results[0].geometry.location));
+                  markersArray.push(new google.maps.Marker({
+                    map: map,
+                    position: results[0].geometry.location,
+                    icon: icon
+                  }));
+                } else {
+                  alert('Geocode was not successful due to: ' + status);
+                }
+              };
+            };
+
+            for (var i = 0; i < originList.length; i++) {
+              var results = response.rows[i].elements;
+              geocoder.geocode({'address': originList[i]},
+                  showGeocodedAddressOnMap(false));
+              for (var j = 0; j < results.length; j++) {
+                geocoder.geocode({'address': destinationList[j]},
+                    showGeocodedAddressOnMap(true));
+                document.getElementById("dist").value= results[j].distance.text;
+                document.getElementById("time").value= results[j].duration.text;
+              }
+            }
+          }
+        });
+      }
+
+      function deleteMarkers(markersArray) {
+        for (var i = 0; i < markersArray.length; i++) {
+          markersArray[i].setMap(null);
+        }
+        markersArray = [];
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzKezyIKmLgXF3HpLNExmL0WsMJTxC-As">
+    </script>
+    
+    
+    <!-- Testimonials -->
+    <section class="testimonials text-center bg-light" id="team">
+      <div class="container">
+        <h2 class="mb-5">Our team</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+              <h5>Anmol Singh</h5>
+              <p class="font-weight-light mb-0">"Designation"</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
+              <h5>Lakshya Dhupar</h5>
+              <p class="font-weight-light mb-0">"Designation"</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+              <h5>Utkarsh Gupta</h5>
+              <p class="font-weight-light mb-0">"Designation"</p>
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+              <h5>Vikas Saini</h5>
+              <p class="font-weight-light mb-0">"Designation"</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
+              <h5>Vivek Singh</h5>
+              <p class="font-weight-light mb-0">"Designation"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="call-to-action text-white text-center" id="track-consignment">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h2 class="mb-4">Track Consignment</h2>
+          </div>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <form>
+              <div class="form-row">
+                <div class="col-12 col-md-9 mb-2 mb-md-0">
+                  <input type="email" class="form-control form-control-lg" placeholder="Enter your Tracking Id..."><br>
+                </div>
+                <div class="col-12 col-md-3">
+                  <button type="submit" class="btn btn-block btn-lg btn-primary">Track</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-light ">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a href="#">About</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Contact</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ul>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2018. All Rights Reserved.</p>
+          </div>
+          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fa fa-facebook fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fa fa-twitter fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-instagram fa-2x fa-fw"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+<!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
